@@ -3,7 +3,7 @@
   <div>
     <h1>👋 Hi there, I'm Areej Abbasi!</h1>
     <p>
-      I'm a passionate 3rd-year Software Engineering student dedicated to harnessing the power of technology to solve real-world problems. My journey so far has been a blend of rigorous academic study and hands-on experience in software engineering, data analysis, and artificial intelligence.
+      I'm a passionate and dedicated  student to harnessing the power of technology to solve real-world problems. My journey so far has been a blend of rigorous academic study and hands-on experience in software engineering, data analysis, and artificial intelligence.
     </p>
     
 <img tab-index="-1" src="https://th.bing.com/th/id/R.91b513350e4fc3e7ac634fbcca36fc25?rik=T9T153eBN0nAyw&amp;pid=ImgRaw&amp;r=0" data-bm="8">
