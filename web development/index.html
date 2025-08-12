@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Areej Safeer - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/font/feather.css" rel="stylesheet" />
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Portfolio</a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active" data-section="home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link" data-section="about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link" data-section="projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Areej Safeer</h1>
+            <h2 class="hero-subtitle">Student</h2>
+            <p class="hero-description">
+                Diving deep into code, exploring the depths of technology
+            </p>
+            <a href="#about" class="cta-button">
+                Explore My Work
+                <i data-feather="arrow-down"></i>
+            </a>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <section id="about" class="section about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        Hi! I’m Areej Safeer, a passionate developer with a strong focus on Python and Artificial Intelligence. I enjoy building practical projects that solve real-world problems. My interests include AI, web development, and software engineering. I’m eager to learn, grow, and contribute to innovative tech solutions.
+                    </p>
+                </div>
+                <div class="education">
+                    <h3>Education</h3>
+                    <div class="education-item">
+                        <div class="education-header">
+                            <h4>BS Computer Science</h4>
+                            <span class="education-year">2025 - 2029</span>
+                        </div>
+                        <p class="education-institution">NUTECH University</p>
+                    </div>
+                    <div class="education-item">
+                        <div class="education-header">
+                            <h4>Agentic AI Course</h4>
+                            <span class="education-year">2024 - 2025</span>
+                        </div>
+                        <p class="education-institution">Air University</p>
+                    </div>
+                    <div class="education-item">
+                        <div class="education-header">
+                            <h4>FSC (Pre-Engineering)</h4>
+                            <span class="education-year">Year Completed</span>
+                        </div>
+                        <p class="education-institution">Superior Group of Colleges</p>
+                        <p class="education-details">86% marks</p>
+                    </div>
+                    <div class="education-item">
+                        <div class="education-header">
+                            <h4>Matriculation</h4>
+                            <span class="education-year">Year Completed</span>
+                        </div>
+                        <p class="education-institution">Govt. Girls High School</p>
+                        <p class="education-details">89% marks</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Projects</h2>
+                <div class="section-divider"></div>
+                <p class="section-description">
+                    Dive into my portfolio of projects, each one a unique exploration 
+                    of technology and creativity.
+                </p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Agentic AI Project</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/areeejabbasii/Agentic-AI" target="_blank" class="project-link">
+                                <i data-feather="github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-description">A practical AI agent built using OpenAI Agent SDK with tool handoffs, guardrails, and streaming responses.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">OpenAI SDK</span>
+                        <span class="tech-tag">Agentic AI</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Python Project</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/areeejabbasii/python" target="_blank" class="project-link">
+                                <i data-feather="github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-description">A collection of Python programs and mini-projects demonstrating problem-solving and automation skills.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Scripting</span>
+                        <span class="tech-tag">Automation</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="section-divider"></div>
+                <p class="section-description">
+                    Ready to dive into your next project? Let's connect and explore 
+                    the possibilities together.
+                </p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i data-feather="mail"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>areejabbasiasa@gmail.com</p>
+                            <a href="mailto:areejabbasiasa@gmail.com">Send Email</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i data-feather="instagram"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Instagram</h4>
+                            <p>instagram.com/areejabbasii</p>
+                            <a href="https://www.instagram.com/areejabbasii/" target="_blank">Connect Now</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i data-feather="linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>LinkedIn</h4>
+                            <p>linkedin.com/in/areejabbasi</p>
+                            <a href="https://www.linkedin.com/in/areejabbasi/" target="_blank">Connect</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form class="form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            Send Message
+                            <i data-feather="send"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Areej Safeer. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://github.com/areeejabbasii" target="_blank">
+                        <i data-feather="github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/areejabbasi/" target="_blank">
+                        <i data-feather="linkedin"></i>
+                    </a>
+                    <a href="mailto:areejabbasiasa@gmail.com">
+                        <i data-feather="mail"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
